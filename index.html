@@ -4,12 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="/src/css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="geader">
+    <header class="header">
       <div class="container header__container">
         <a href="../../index.html" class="logo">
-          <img class="logo__img" src="..." alt="логотип" />
+          <img
+            class="logo__img"
+            src="/src/img/header/webstudio.jpg"
+            alt="логотип"
+          />
         </a>
         <nav class="nav">
           <ul class="nav__list">
@@ -17,7 +28,9 @@
               <a href="#" class="nav__link">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="/src/pages/portfolio.html" class="nav__link">Портфоліо</a>
+              <a href="/src/pages/portfolio.html" class="nav__link"
+                >Портфоліо</a
+              >
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link">Контакти</a>
@@ -96,15 +109,15 @@
           <h2 class="cases__title">Чим ми займаємося</h2>
           <div class="cases__content">
             <div class="cases__item case">
-              <img src="..." alt="Персональний комп'ютер" class="case__img" />
+              <img src="/src/img/cases/computer.jpg" alt="Персональний комп'ютер" class="case__img" />
               <h3 class="case-title">Десктопні додатки</h3>
             </div>
             <div class="cases__item case">
-              <img src="..." alt="Мобільний телефон" class="case__img" />
+              <img src="/src/img/cases/phone.jpg" alt="Мобільний телефон" class="case__img" />
               <h3 class="case-title">Мобільні додатки</h3>
             </div>
             <div class="cases__item case">
-              <img src="..." alt="Планшет" class="case__img" />
+              <img src="/src/img/cases/tablet.jpg" alt="Планшет" class="case__img" />
               <h3 class="case-title">Дизайнерські рішення</h3>
             </div>
           </div>
@@ -117,7 +130,7 @@
             <article class="employee">
               <div class="employee__photo">
                 <img
-                  src="..."
+                  src="./src/img/team/igor.jpg"
                   alt="Фото Ігор Дем'яненко"
                   class="employee__img"
                 />
@@ -127,7 +140,7 @@
             </article>
             <article class="employee">
               <div class="employee__photo">
-                <img src="..." alt="Фото Ольга Рєпіна" class="employee__img" />
+                <img src="/src/img/team/olga.jpg" alt="Фото Ольга Рєпіна" class="employee__img" />
               </div>
               <h3 class="employee__name">Ольга Рєпіна</h3>
               <p class="employee__position">Frontend Developer</p>
@@ -135,7 +148,7 @@
             <article class="employee">
               <div class="employee__photo">
                 <img
-                  src="..."
+                  src="/src/img/team/nicholas.jpg"
                   alt="Фото Микола Тарасов"
                   class="employee__img"
                 />
@@ -146,7 +159,7 @@
             <article class="employee">
               <div class="employee__photo">
                 <img
-                  src="..."
+                  src="/src/img/team/mykhailo.jpg"
                   alt="Фото Михайло Єрмаков"
                   class="employee__img"
                 />
@@ -161,13 +174,15 @@
     <footer class="footer">
       <div class="container footer__container">
         <a href="#" class="logo">
-          <img class="logo__img" src="..." alt="логотип" />
+          <img class="logo__img" src="/src/img/header/webstudio.jpg" alt="логотип" />
         </a>
         <ul class="foooter__contacts list-contacts">
-           <li class="list-contacts__item">
-            <address class="list-contacts__address">м. Київ, пр-т Лесі Українки, 26</address>
-           </li>
-           <li class="list-contacts__item">
+          <li class="list-contacts__item">
+            <address class="list-contacts__address">
+              м. Київ, пр-т Лесі Українки, 26
+            </address>
+          </li>
+          <li class="list-contacts__item">
             <a href="mailto:info@devstudio.com" class="list-contacts__link">
               info@devstudio.com
             </a>

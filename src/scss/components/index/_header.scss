@@ -1,0 +1,27 @@
+.header {
+    padding: 25px 0;
+}
+.header__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+}
+.nav__list {
+    display: flex;
+    gap: 53px;
+    
+}
+.nav__link {
+    color: black;
+    font-weight: 500;
+    &:hover {
+        color: #2196F3;
+    }
+}
+.contacts {
+    display: flex;
+    
+    gap: 30px;
+}
