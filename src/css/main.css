@@ -22,10 +22,16 @@ ul {
 .header__container {
   max-width: 1170px;
   margin: 0 auto;
+  display: flex;
+}
+
+.logo__img {
+  margin-right: 93px;
 }
 
 .nav {
   display: flex;
+  margin-top: 7px;
 }
 
 .nav__list {
@@ -44,11 +50,28 @@ ul {
 .contacts {
   display: flex;
   gap: 30px;
+  margin-left: 313px;
+}
+
+.contacts__link {
+  color: #757575;
+  font-weight: 500;
+}
+.contacts__link:hover {
+  color: #2196F3;
 }
 
 .hero {
   background-image: url(/src/img/hero/hero.jpg);
   height: 600px;
+}
+
+.hero__container {
+  margin: 0 auto;
+}
+
+.hero__title {
+  color: #FFF;
 }
 
 body {
