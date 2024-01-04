@@ -1,0 +1,36 @@
+.adveantages {
+    padding-top: 94px;
+}
+.adveantages__container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.adveantages__list {
+    display: flex;
+    gap: 30px;
+}
+.adveantage__photo {
+    border-radius: 4px;
+    background: #F5F4FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0;
+    margin-bottom: 30px;
+}
+.adveantage__icon {
+    width: 70px;
+    height: 70px;
+    fill: black;
+    &:hover {
+        fill: #2196F3;
+    }
+}
+.adveantage__title {
+    color: #212121;
+    font-weight: 700;
+}
+.adveantage__text {
+    color: #757575;
+    width: 270px;
+}
