@@ -1,9 +1,13 @@
+@import 'utils/variables';
+@import 'utils/mixin';
+@import 'utils/variables';
 @import 'default/reset';
-@import 'components/header';
-@import 'components/hero';
-@import 'components/adveantage';
-@import 'components/cases';
-@import 'components/team';
-body {
-    font-family: 'Roboto', sans-serif;
-}
+@import 'default/global';
+@import 'layout/header';
+@import 'components/mobile-menu';
+@import 'layout/hero';
+@import 'components/modal';
+@import 'layout/adveantage';
+@import 'layout/cases';
+@import 'layout/team';
+@import 'layout/footer';
